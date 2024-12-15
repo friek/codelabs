@@ -3,7 +3,6 @@ import { HomeComponent } from "./home/home.component";
 import { RouterModule } from "@angular/router";
 
 @Component({
-    standalone: true,
     imports: [HomeComponent, RouterModule],
     selector: 'app-root',
     template: `
@@ -16,7 +15,7 @@ import { RouterModule } from "@angular/router";
 				</section>
 			</main>
     `,
-    styleUrls: ['./app.component.css'],
+    styleUrls: ['./app.component.css']
 })
 export class AppComponent {
     title = 'homes';
