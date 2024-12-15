@@ -18,3 +18,8 @@
 - Run the application 
 
   `ng serve`
+
+- Run json-server next to it for serving of `db.json`:
+
+  `npm run json-server`
+
