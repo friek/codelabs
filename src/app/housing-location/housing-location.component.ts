@@ -6,6 +6,7 @@ import { RouterModule } from "@angular/router";
 @Component({
     selector: 'app-housing-location',
     imports: [CommonModule, RouterModule],
+    standalone: true,
     template: `
 			<section class="listing">
 				<img class="listing-photo" [src]="housingLocation.photo"
